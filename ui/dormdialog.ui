@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dormDialog</class>
+ <widget class="QDialog" name="dormDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>545</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>dormDialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>451</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="loc">
+      <property name="text">
+       <string>loc</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="building">
+      <property name="text">
+       <string>building</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="dorm_id">
+      <property name="text">
+       <string>dorm_id</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="record">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>58</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>入住记录</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="recordTable">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>111</y>
+     <width>471</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>601</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="name">
+      <property name="text">
+       <string>name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="id">
+      <property name="text">
+       <string>id</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="tel">
+      <property name="text">
+       <string>tel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="gender">
+      <property name="text">
+       <string>gender</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
